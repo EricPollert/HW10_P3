@@ -6,18 +6,23 @@ int main() {
 
   int numNums;
   int temp;
-  int numbers[] = {};
+
+  cin >> numNums;
+  int numbers[numNums];
 
   for (int i = 0; i < numNums; i++){
-  
-    if(i == 0){
-      cout << temp;
-      temp = numbers[0];
+    cin >> numbers[i];
     }
-    if()
     
-  }
+  for (int i = 0; i < numNums; i++){
+      if(i == 0){
+        cout << temp;
+        temp = numbers[0];
+    }
+
 
 
   
+}
+
 }
